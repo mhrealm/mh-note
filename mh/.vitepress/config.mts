@@ -14,7 +14,7 @@ export default defineConfig({
       {
         text: '年度计划',
         items: [
-          { text: '2026年年度计划', link: '/views/plan/2026' },
+          { text: '2026年: 在时代的尘埃中寻找自己的锚点', link: '/views/plan/2026' },
           { text: '2027年年度计划', link: '/views/plan/2027' },
         ],
       },
