@@ -96,8 +96,8 @@ Text('两边边框').border({
   color: { left: '#999', right: 'blue' },
   style: {
     left: BorderStyle.Solid,
-    right: BorderStyle.Dashed
-  }
+    right: BorderStyle.Dashed,
+  },
 })
 ```
 
@@ -117,7 +117,7 @@ Text('普通') // 普通圆角
 ```javascript
 Text('单独边圆角').backgroundColor('#ccc').padding(10).borderRadius({
   topLeft: 10,
-  bottomRight: 10
+  bottomRight: 10,
 })
 ```
 
@@ -572,12 +572,12 @@ interface IdFunc<T> {
 
 let obj: IdFunc<number> = {
   id: (value: number) => value,
-  ids: () => [1, 2, 3]
+  ids: () => [1, 2, 3],
 }
 
 let obj2: IdFunc<string> = {
   id: (value: string) => value,
-  ids: () => ['1', '2']
+  ids: () => ['1', '2'],
 }
 ```
 

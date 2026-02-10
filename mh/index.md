@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'mh'
-  text: '前端笔记'
-  tagline: My great project tagline
+  name: "Hi, I'm Mh"
+  text: 'Frontend Engineer'
+  tagline: 我是一名资深 Web 前端工程师，专注于 Shopify 独立站 与 Cloudflare 边缘计算。同时持续探索 AI 编程，将其作为提升工程效率的核心手段。
   actions:
     - theme: brand
       text: Markdown Examples
