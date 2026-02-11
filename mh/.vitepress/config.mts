@@ -65,7 +65,7 @@ export default defineConfig({
       {
         text: '其他',
         items: [
-          { text: 'webapack', link: '/views/others/webpack' },
+          { text: 'webpack', link: '/views/others/webpack' },
           { text: '代码提交校验及提交规范', link: '/views/others/code-submission' },
           { text: 'react中全局配置less', link: '/views/others/configure-less' },
           { text: 'git相关', link: '/views/others/git' },
@@ -90,6 +90,12 @@ export default defineConfig({
         ],
       },
     ],
-    socialLinks: [{ icon: 'github', link: 'https://github.com/mh0904/mh-note' }],
+    socialLinks: [
+      {
+        icon: 'juejin',
+        link: 'https://juejin.cn/user/712139267641950/posts',
+      },
+      { icon: 'github', link: 'https://github.com/mh0904/mh-note' },
+    ],
   },
 })
