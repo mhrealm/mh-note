@@ -3,10 +3,17 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'mh',
   description: 'mh note',
-
+  lastUpdated: true, // 开启最近更新时间
   appearance: true,
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
+    lastUpdated: {
+      text: '最后更新时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'short',
+      },
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'css', link: '/views/css/basics' },
